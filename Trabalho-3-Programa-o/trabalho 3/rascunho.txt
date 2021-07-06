@@ -1,0 +1,47 @@
+===INÍCIO===
+O que você deseja fazer?
+[1] Abrir uma conta
+[2] Encerrar uma conta
+[3] Depositar dinheiro
+[4] Sacar dinheiro
+[5] Verificar saldo
+[6] Emitir extrato
+
+
+===[1] Abrir uma conta===
+Número da conta: gerado automaticamente
+CPF:
+Nome:
+Endereço:
+Telefone:
+Email:
+
+
+===[2] Encerrar uma conta===
+Insira número da conta:
+Insira senha:
+Confirme a ação (S/N):
+
+
+===[3] Depositar dinheiro===
+Insira seu número de conta:
+Insira o número da conta na qual deseja depositar:
+Insira a quantidade de dinheiro que deseja depositar:
+Insira sua senha:
+
+
+===[4] Sacar dinheiro===
+Insira seu número de conta:
+Insira a quantidade de dinheiro que deseja sacar:
+Insira sua senha:
+
+
+===[5] Verificar o saldo===
+Insira seu número de conta:
+Insira sua senha:
+
+
+
+===[6] Emitir extrato===
+Insira seu número de conta:
+Insira sua senha:

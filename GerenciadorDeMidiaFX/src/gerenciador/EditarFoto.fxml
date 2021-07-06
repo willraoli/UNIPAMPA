@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditarFotoController">
+   <GridPane hgap="5.0" layoutX="54.0" layoutY="82.0" vgap="5.0">
+      <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         <RowConstraints />
+      </rowConstraints>
+      <children>
+         <TextField fx:id="textoTitulo" GridPane.columnIndex="1" />
+         <TextField fx:id="textoDescricao" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         <Label text="Título" />
+         <Label text="Descrição" GridPane.rowIndex="1" />
+         <Label text="Caminho do arquivo" GridPane.rowIndex="6" />
+         <TextField fx:id="textoFotografo" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <Label text="Fotógrafo" GridPane.rowIndex="3" />
+         <TextField fx:id="textoPessoas" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         <Label text="Pessoas" GridPane.rowIndex="4" />
+         <TextField fx:id="textoLocal" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+         <Label text="Local" GridPane.rowIndex="5" />
+         <Label text="Data" GridPane.rowIndex="2" />
+         <DatePicker fx:id="data" editable="false" prefHeight="25.0" prefWidth="149.0" promptText="dd/mm/yyyy" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         <Button mnemonicParsing="false" onAction="#escolherLocal" text="Escolher local..." GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         <TextField fx:id="textoCaminhoPrompt" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      </children>
+   </GridPane>
+   <Button defaultButton="true" layoutX="76.0" layoutY="367.0" mnemonicParsing="false" onAction="#editarClick" prefHeight="25.0" prefWidth="149.0" text="Confirmar edição" />
+   <Button fx:id="botaoCancelar" cancelButton="true" layoutX="231.0" layoutY="367.0" mnemonicParsing="false" onAction="#cancelarClick" text="Cancelar" />
+   <Label layoutX="34.0" layoutY="28.0" text="Por favor, preencha os dados a seguir:">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+</AnchorPane>

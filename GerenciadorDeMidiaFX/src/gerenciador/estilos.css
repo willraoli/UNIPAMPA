@@ -1,0 +1,9 @@
+.botao-esquerda {
+  -fx-pref-width: 75px;
+  -fx-min-width: 75px;
+  }
+
+.botao-direita {
+  -fx-pref-width: 75px;
+  -fx-min-width: 75px;
+  }
