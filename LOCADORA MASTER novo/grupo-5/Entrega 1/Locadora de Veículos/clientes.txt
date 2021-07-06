@@ -1,0 +1,4 @@
+Gui;777;NA;50;0
+Bhruno;123;NA;50;0
+Thiago;321;NA;50;0
+Lucas;1234;NA;50;0
