@@ -1,0 +1,29 @@
+1. O que é Unidade Lógica-Aritmética?
+Não sei.
+
+2. O que é uma porta-lógica?
+Não sei.
+
+3. Diferencie RISC de CISC?
+Não sei.
+
+4. Como a cache impacta no desempenho de um programa?
+Cache cheio faz com que o programa passe a travar(eu acho).
+
+5. Você já viu um programa em código assembly?
+Nunca.
+
+6. Para que servem os registradores em um processador?
+Não sei.
+
+7. Cite alguns fabricantes de processador de propósito geral.
+Intel e AMD.
+
+8. Por que surgiram os processadores multicore?
+Acredito que surgiram devido a avanços relacionados à economia de energia, já que o número de cores a serem utilizados pode ser controlado de acordo com a aplicação.
+
+9. Você costuma fazer uso de um terminal/shell para a execução de comandos?
+Sim. Não sou um usuário de linux, mas o pouco que sei utilizo no Windows.
+
+10. Você já desenvolveu um programa usando threads?
+Não.

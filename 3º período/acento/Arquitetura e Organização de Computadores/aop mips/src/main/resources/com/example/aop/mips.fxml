@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aop.MipsController">
+   <center>
+      <ImageView fx:id="picture" fitHeight="524.0" fitWidth="707.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Label text="MIPS simulator" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <right>
+      <VBox prefHeight="653.0" prefWidth="162.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="startBtn" mnemonicParsing="false" onAction="#onStartBtnClick" text="Início - LEITURA" />
+            <Button fx:id="nextBtn" mnemonicParsing="false" onAction="#onNextBtnClick" text="Próximo" />
+            <Button fx:id="previousBtn" mnemonicParsing="false" onAction="#onPreviousBtnClick" text="Anterior" />
+            <Button mnemonicParsing="false" onAction="#onWriteBtnClick" text="Exemplo: gravação" />
+            <Button mnemonicParsing="false" onAction="#onArithmeticsBtnClick" text="Exemplo: aritmética" />
+            <Button mnemonicParsing="false" onAction="#onReadBtnClick" text="Exemplo: leitura" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </right>
+</BorderPane>
